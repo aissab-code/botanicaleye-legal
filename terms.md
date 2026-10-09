@@ -24,8 +24,7 @@ also applies.
 ## 3. Free use and Premium
 
 A limited number of free plant scans is included each week. **Premium** removes that limit
-and is offered as an auto-renewable subscription, monthly or yearly, and where available as a
-one-time lifetime purchase.
+and is offered as an auto-renewable subscription, monthly or yearly.
 
 - **Billing.** Payment is charged to your Apple ID (iOS) or Google Play account (Android) when
   you confirm the purchase.

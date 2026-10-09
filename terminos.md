@@ -24,8 +24,7 @@ Apple o Google Play). En iPhone se aplica además la licencia estándar de Apple
 ## 3. Uso gratuito y Premium
 
 Cada semana se incluye un número limitado de escaneos gratis. **Premium** elimina ese límite y
-se ofrece como suscripción de renovación automática, mensual o anual, y donde esté disponible
-como compra única de por vida.
+se ofrece como suscripción de renovación automática, mensual o anual.
 
 - **Cobro.** El pago se carga a tu ID de Apple (iOS) o a tu cuenta de Google Play (Android) al
   confirmar la compra.
