@@ -14,7 +14,8 @@ about your access or your data.
 **How do I scan a plant?**
 Open the app, tap **Scan a plant** and point the camera at the plant. You get an
 identification, a health diagnosis and care tips. Fill the frame with leaves or flowers, in
-good light, and keep other things — people, documents — out of the picture.
+good light, and keep other things — people, documents — out of the picture. The first time,
+the app asks your permission to send the photo to the artificial intelligence that analyses it.
 
 **How many free scans do I get?**
 A set number every week; the app shows how many are left. Premium removes the limit.

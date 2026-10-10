@@ -5,7 +5,7 @@ lang: en
 
 # Privacy Policy — The Botanical Eye
 
-**Last updated:** 9 October 2026
+**Last updated:** 10 October 2026
 
 This policy explains what The Botanical Eye ("the app") does with personal data. The app
 identifies plants from a photo, checks their health, keeps a garden of your plants on your
@@ -89,6 +89,9 @@ When you scan a plant, the photo is sent from the app to our server, which forwa
 **Google's Gemini API** together with your language and, when you track a saved plant's
 progress, the earlier diagnoses of that plant. The result comes back to your phone. The photo
 is held only for the duration of that request and is never written to storage by us.
+
+Before the first photo leaves your phone, the app tells you this, names Google as the
+recipient and asks for your permission. If you choose "Not now", nothing is sent.
 
 Google processes the request under its own terms: <https://ai.google.dev/gemini-api/terms>
 and <https://policies.google.com/privacy>. We use Gemini's paid service, under which Google

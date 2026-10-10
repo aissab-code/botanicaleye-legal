@@ -5,7 +5,7 @@ lang: es
 
 # Política de privacidad — The Botanical Eye (El Ojo Botánico)
 
-**Última actualización:** 9 de octubre de 2026
+**Última actualización:** 10 de octubre de 2026
 
 Esta política explica qué hace The Botanical Eye («la app») con los datos personales. La app
 identifica plantas a partir de una foto, revisa su salud, guarda en tu teléfono un jardín con
@@ -90,6 +90,9 @@ Cuando escaneas una planta, la foto viaja desde la app a nuestro servidor, que l
 **API Gemini de Google** junto con tu idioma y, si sigues el progreso de una planta guardada,
 los diagnósticos anteriores de esa planta. El resultado vuelve a tu teléfono. Solo
 conservamos la foto mientras dura esa petición y nunca la guardamos.
+
+Antes de que la primera foto salga de tu teléfono, la app te lo explica, te dice que la recibe
+Google y te pide permiso. Si eliges «Ahora no», no se envía nada.
 
 Google trata la petición según sus propias condiciones: <https://ai.google.dev/gemini-api/terms>
 y <https://policies.google.com/privacy>. Usamos el servicio de pago de Gemini, con el que

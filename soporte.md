@@ -14,7 +14,8 @@ de Perfil › Tu ID.
 **¿Cómo escaneo una planta?**
 Abre la app, pulsa **Escanear una planta** y apunta la cámara a la planta. Recibirás la
 identificación, un diagnóstico de salud y consejos de cuidado. Llena el encuadre con hojas o
-flores, con buena luz, y deja fuera todo lo demás: personas, documentos.
+flores, con buena luz, y deja fuera todo lo demás: personas, documentos. La primera vez, la
+app te pide permiso para enviar la foto a la inteligencia artificial que la analiza.
 
 **¿Cuántos escaneos gratis tengo?**
 Un número fijo cada semana; la app te muestra los que te quedan. Premium elimina el límite.
