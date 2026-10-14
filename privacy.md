@@ -5,7 +5,7 @@ lang: en
 
 # Privacy Policy — The Botanical Eye
 
-**Last updated:** 10 October 2026
+**Last updated:** 14 October 2026
 
 This policy explains what The Botanical Eye ("the app") does with personal data. The app
 identifies plants from a photo, checks their health, keeps a garden of your plants on your
@@ -37,10 +37,14 @@ We never ask for, and never receive, your email address or phone number.
 
 The following is stored only on your device and never uploaded to our servers:
 
-- **Your garden:** the plant photos you save, plant names, diagnoses, care tips and progress
-  history.
+- **Your garden:** the plant photos you save, plant names and nicknames, your notes,
+  diagnoses, care tips, progress history, and the questions you asked about a plant with their
+  answers.
 - **Your reminders:** they are scheduled as local notifications by your phone.
-- The name you type in your profile, your language, and your weekly free-scan counter.
+- The name you type in your profile, your language and appearance settings, and your free-scan
+  and free-question counters.
+
+**Profile › Delete all my data** removes all of this from your phone at once.
 
 Everything in this section is removed when you uninstall the app or clear its storage.
 
@@ -63,7 +67,13 @@ Our backend runs on Supabase. Attached to your installation's random identifier 
   partner only ever sees totals: how many people used their code and what they have earned.
   Never who you are.
 
-We do **not** store the plant photos you scan.
+- **Reports of AI content:** if you tap **Report** on a result or an answer, we store what the
+  AI said (and your question, for an answer), the plant's name, the reason you chose, your
+  installation's identifier, and the app's language, platform and version. We read reports to
+  find and fix wrong, offensive or unsafe output. No photo is included.
+
+We do **not** store the plant photos you scan or the questions you ask (unless you report an
+answer, as above).
 
 ---
 
@@ -79,16 +89,25 @@ assess their health and write care advice.
   before acting on anything that matters.
 - **No automated decisions about you.** The app makes no decisions with legal or similarly
   significant effects (GDPR Art. 22).
-- We do **not** use your photos or results to train AI models.
+- **You can report AI content.** Every result and every answer has a **Report** link; see
+  section 4 for what a report contains.
+- We do **not** use your photos, questions or results to train AI models.
 
 ---
 
-## 6. Plant photos and AI analysis
+## 6. Plant photos, questions and AI analysis
 
 When you scan a plant, the photo is sent from the app to our server, which forwards it to
 **Google's Gemini API** together with your language and, when you track a saved plant's
-progress, the earlier diagnoses of that plant. The result comes back to your phone. The photo
-is held only for the duration of that request and is never written to storage by us.
+progress, the earlier diagnoses of that plant. The app first makes the photo smaller (about
+1600 pixels on the long side). The result comes back to your phone. The photo is held only for
+the duration of that request and is never written to storage by us.
+
+When you **ask a question about a plant**, the app sends your question to our server, together
+with what it already knows about that plant (its name, health, diagnosis and care tips) and
+your last few questions and answers about it. Our server forwards this text to the Gemini API;
+no photo is sent. The answer comes back to your phone, and neither the question nor the answer
+is stored by us.
 
 Before the first photo leaves your phone, the app tells you this, names Google as the
 recipient and asks for your permission. If you choose "Not now", nothing is sent.
@@ -98,7 +117,7 @@ and <https://policies.google.com/privacy>. We use Gemini's paid service, under w
 does not use the content to improve its products.
 
 > Photograph only the plant. Anything else in the picture — a face, a document, the inside of
-> your home — is sent along with it.
+> your home — is sent along with it. Likewise, keep personal details out of your questions.
 
 ---
 
@@ -106,7 +125,8 @@ does not use the content to improve its products.
 
 | Purpose | Legal basis (GDPR) |
 | --- | --- |
-| Analysing the photos you submit | Performance of a contract, Art. 6(1)(b) |
+| Analysing the photos you submit and answering your questions | Performance of a contract, Art. 6(1)(b) |
+| Reviewing the AI content you report | Legitimate interest in keeping the AI's output accurate and safe, and the app stores' rules for AI apps, Art. 6(1)(f) |
 | Usage limits and abuse prevention | Legitimate interest in keeping the service available, Art. 6(1)(f) |
 | Giving free Premium to people we choose | Legitimate interest, Art. 6(1)(f) |
 | Paying commission to the partner whose code you redeemed | Legitimate interest in running the referral programme, Art. 6(1)(f) |
@@ -119,7 +139,8 @@ We do **not** use your data for advertising or profiling, and we do **not** sell
 ## 8. Who else touches the data
 
 - **Supabase, Inc.** — hosts our database and server functions. <https://supabase.com/privacy>
-- **Google LLC (Gemini API)** — analyses plant photos. <https://policies.google.com/privacy>
+- **Google LLC (Gemini API)** — analyses plant photos and answers questions about plants.
+  <https://policies.google.com/privacy>
 - **RevenueCat, Inc.** — records which subscription you hold, keyed to your installation's
   identifier. <https://www.revenuecat.com/privacy>
 - **Apple** and **Google Play** — distribute the app and take payment. We never see your
@@ -140,7 +161,9 @@ Privacy Framework or the European Commission's Standard Contractual Clauses.
 
 ## 10. How long we keep it
 
-- **Plant photos:** not kept by us at all — only for the seconds the analysis takes.
+- **Plant photos and questions:** not kept by us at all — only for the seconds the analysis
+  takes.
+- **Reports of AI content:** 12 months, then deleted.
 - **Usage counters and IP hashes:** about one week.
 - **Installation record and free-access grants:** until you ask us to delete them.
 - **Partner-code records:** for as long as tax and accounting law requires.
